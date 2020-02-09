@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>One Page</title>
+</head>
+<body>
+    <h1>My public folder</h1>
+    <script type="text/javascript">
+        var getData = function() {
+            fetch('./.netlify/functions/getData')
+            .then(function(res) { return res.json();})
+            .then(function(json) {
+                console.log(json);
+            });
+        };
+        getData();
+    </script>
+</body>
+</html>

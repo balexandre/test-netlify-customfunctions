@@ -1,0 +1,10 @@
+{
+  "name": "ntl-functions-folder",
+  "version": "1.0.0",
+  "scripts": {},
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "moment": "^2.24.0"
+  }
+}
